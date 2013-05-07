@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ghost Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="static/bootstrap/css/bootstrap.css" rel="stylesheet" >
+        <link href="static/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" >
+        <script src="static/bootstrap/js/bootstrap.js"></script>
+        <script src="http://code.jquery.com/jquery.js"></script>
+    </head>
+    <body>
+        <div class="row">
+            <div class="span5 offset1">
+                <h1>Katie's Awesome Ghost Game</h1>
+                <form>
+                    <fieldset>
+                        <div class="input-append">
+                            <input class="input-block-level" type="text" placeholder="Type a letter">
+                            <button class="btn btn-warning">You go first</button>
+                        </div>
+                        <span class="help-block">Start by typing a letter or letting the machine go first.</span>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
